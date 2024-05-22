@@ -1,5 +1,6 @@
-package br.com.vitorcapovilla.capovillaban;
+package br.com.vitorcapovilla.capovillaban.Listeners;
 
+import br.com.vitorcapovilla.capovillaban.CapovillaBan;
 import org.bukkit.BanList;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

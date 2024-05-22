@@ -1,4 +1,4 @@
-package br.com.vitorcapovilla.capovillaban;
+package br.com.vitorcapovilla.capovillaban.Commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;

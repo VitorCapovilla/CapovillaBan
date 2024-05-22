@@ -1,4 +1,6 @@
-br\com\vitorcapovilla\capovillaban\LoginListener.class
-br\com\vitorcapovilla\capovillaban\BanCommand.class
-br\com\vitorcapovilla\capovillaban\BanListener.class
+br\com\vitorcapovilla\capovillaban\Listeners\LoginListener.class
+br\com\vitorcapovilla\capovillaban\Listeners\BanListener.class
+br\com\vitorcapovilla\capovillaban\Listeners\TempBanListener.class
+br\com\vitorcapovilla\capovillaban\Commands\BanCommand.class
 br\com\vitorcapovilla\capovillaban\CapovillaBan.class
+br\com\vitorcapovilla\capovillaban\Commands\TempBanCommand.class

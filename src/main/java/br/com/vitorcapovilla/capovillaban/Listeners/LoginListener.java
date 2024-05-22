@@ -1,6 +1,5 @@
-package br.com.vitorcapovilla.capovillaban;
+package br.com.vitorcapovilla.capovillaban.Listeners;
 
-import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerLoginEvent;
@@ -18,9 +17,11 @@ public class LoginListener implements Listener {
     @EventHandler
     public void onPlayerLogin(PlayerLoginEvent event) {
         String playerName = event.getPlayer().getName();
-        if (banMessages.containsKey(playerName)) {
-            String kickMessage = banMessages.get(playerName);
-            event.disallow(PlayerLoginEvent.Result.KICK_BANNED, kickMessage);
+        if (event.getPlayer().isBanned() == true){
+            if (banMessages.containsKey(playerName)) {
+                String kickMessage = banMessages.get(playerName);
+                event.disallow(PlayerLoginEvent.Result.KICK_BANNED, kickMessage);
+            }
         }
     }
 }
