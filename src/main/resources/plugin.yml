@@ -1,0 +1,7 @@
+name: CapovillaBan
+version: '${project.version}'
+main: br.com.vitorcapovilla.capovillaban.CapovillaBan
+api-version: '1.19'
+commands:
+  ban:
+    description: Banir um jogador
